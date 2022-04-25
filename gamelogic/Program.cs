@@ -1,6 +1,7 @@
 ﻿
 using System.Numerics;
 using gamelogic;
+using Microsoft.AspNetCore.SignalR.Client;
 
 
 var v2 = new Vector2(1,2);
@@ -23,3 +24,7 @@ player1.RecieveHit(v222);
 
 Console.WriteLine(player1.Ships[0].IsSunk());
 Console.WriteLine(player1.AllSunk);
+
+var connection = new HubConnectionBuilder()
+    .WithUrl("http://localhost:53353/ChatHub")
+    .Build();
