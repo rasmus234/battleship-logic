@@ -1,0 +1,15 @@
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\gamelogic.exe
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\gamelogic.deps.json
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\gamelogic.runtimeconfig.json
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\gamelogic.dll
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\ref\gamelogic.dll
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\gamelogic.pdb
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.csproj.AssemblyReference.cache
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.AssemblyInfoInputs.cache
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.AssemblyInfo.cs
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.csproj.CoreCompileInputs.cache
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.dll
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\ref\gamelogic.dll
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.pdb
+C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.genruntimeconfig.cache
