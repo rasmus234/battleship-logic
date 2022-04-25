@@ -26,5 +26,5 @@ Console.WriteLine(player1.Ships[0].IsSunk());
 Console.WriteLine(player1.AllSunk);
 
 var connection = new HubConnectionBuilder()
-    .WithUrl("http://localhost:53353/ChatHub")
+    .WithUrl("http://localhost:5137/hubs/battleship")
     .Build();
