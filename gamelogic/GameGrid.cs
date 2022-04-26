@@ -4,13 +4,21 @@ namespace gamelogic;
 
 public class GameGrid
 {
+    public const int GridSize = 10;
     public List<Ship> Ships { get; set; } = new();
 
     public bool AllSunk => Ships.All(ship => ship.IsSunk());
 
     public void PlaceShip(Ship ship)
     {
-        Ships.Add(ship);
+        if (ship.Tiles.Length <= GridSize && ship.Tiles.All(vector2 => vector2.X < 11 && vector2.Y < 11))
+        {
+            Ships.Add(ship);
+        }
+        else
+        {
+            throw new ArgumentException("Ship is out of bounds");
+        }
     }
 
     public void RecieveHit(Vector2 coordinate)

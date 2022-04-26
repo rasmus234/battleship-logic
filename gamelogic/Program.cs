@@ -1,16 +1,12 @@
-﻿
-using System.Numerics;
+﻿using System.Numerics;
 using gamelogic;
 using Microsoft.AspNetCore.SignalR.Client;
 
 
-var v2 = new Vector2(1,2);
-var v22 = new Vector2(1,3);
-var v222 = new Vector2(1,4);
-var ship = new Ship()
-{
-    Tiles = new Vector2[]{v2,v22,v222}
-};
+var v2 = new Vector2(1, 2);
+var v22 = new Vector2(1, 3);
+var v222 = new Vector2(1, 1);
+var ship = new Ship(new Vector2[] {v2, v22, v222});
 
 var player1 = new GameGrid();
 var player2 = new GameGrid();
@@ -27,4 +23,15 @@ Console.WriteLine(player1.AllSunk);
 
 var connection = new HubConnectionBuilder()
     .WithUrl("http://localhost:5137/hubs/battleship")
+    .WithAutomaticReconnect()
     .Build();
+
+await connection.StartAsync();
+
+connection.On<int,int>("ReceiveShot", (x,y) =>
+{
+    Console.WriteLine($"Received hit at {x}, {y}");
+});
+await connection.InvokeAsync("Register", "username1" + new Random().Next());
+
+while(true);
