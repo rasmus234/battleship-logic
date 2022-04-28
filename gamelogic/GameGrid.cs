@@ -21,7 +21,7 @@ public class GameGrid
         }
     }
 
-    public void RecieveHit(Vector2 coordinate)
+    public void ReceiveHit(Vector2 coordinate)
     {
         foreach (var ship in Ships.Where(ship => !ship.IsSunk()))
         {

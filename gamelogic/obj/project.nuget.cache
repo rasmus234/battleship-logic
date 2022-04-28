@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k4l4By87QvyovjotyK3rkRcMDamhU1NZECA6cVbv5Uwss0/STSCqzmyAonLmGj9qoJm4QCg7ot8RANeHvsBUxA==",
+  "dgSpecHash": "UjAU9DaCueOL2Yv/p32YFAkZXi5dsQVJmKA4pPlz3iBa9/BkqC1eL+fi7/koPT1sj0CooE1SxTVpHYFpyo1FTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rasmu\\RiderProjects\\gamelogic\\gamelogic\\gamelogic.csproj",
+  "projectFilePath": "C:\\Users\\rasmu\\RiderProjects\\battleship-logic\\gamelogic\\gamelogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\6.0.4\\microsoft.aspnetcore.connections.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\6.0.4\\microsoft.aspnetcore.http.connections.client.6.0.4.nupkg.sha512",

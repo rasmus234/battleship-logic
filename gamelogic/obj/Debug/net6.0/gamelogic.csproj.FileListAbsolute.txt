@@ -62,3 +62,5 @@ C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\System.IO.Pipe
 C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\obj\Debug\net6.0\gamelogic.csproj.CopyComplete
 C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\rasmu\RiderProjects\gamelogic\gamelogic\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.dll
+C:\Users\rasmu\RiderProjects\battleship-logic\gamelogic\bin\Debug\net6.0\Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.dll
+C:\Users\rasmu\RiderProjects\battleship-logic\gamelogic\bin\Debug\net6.0\Newtonsoft.Json.dll
