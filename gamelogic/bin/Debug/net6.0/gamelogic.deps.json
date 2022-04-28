@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "gamelogic/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.SignalR.Client": "6.0.4"
+          "Microsoft.AspNetCore.SignalR.Client": "6.0.4",
+          "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson": "6.0.4",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "gamelogic.dll": {}
@@ -100,6 +102,18 @@
           }
         }
       },
+      "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/6.0.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "6.0.4",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.dll": {
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.422.17204"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
@@ -171,6 +185,14 @@
           "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
           }
         }
       },
@@ -246,6 +268,13 @@
       "path": "microsoft.aspnetcore.signalr.protocols.json/6.0.4",
       "hashPath": "microsoft.aspnetcore.signalr.protocols.json.6.0.4.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3SJ3xfkNBO/y2z9ypwTDwANp+4+kYVJfneSYoX4NF2nfVa+vCQ5jTD8GmZ39B9btVe4C4BaIdtwSL8F/4oFuEQ==",
+      "path": "microsoft.aspnetcore.signalr.protocols.newtonsoftjson/6.0.4",
+      "hashPath": "microsoft.aspnetcore.signalr.protocols.newtonsoftjson.6.0.4.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -294,6 +323,13 @@
       "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
       "path": "microsoft.extensions.primitives/6.0.0",
       "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",
